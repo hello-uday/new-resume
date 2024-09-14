@@ -1,8 +1,7 @@
-import React,{useEffect,useState} from 'react'
+import React from 'react'
 import {useNavigate} from 'react-router-dom'
 import background from '../assets/background.jpg'
 import { ReactTyped } from 'react-typed';
-import axios from'axios'
 
 
 const Home = () => {

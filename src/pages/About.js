@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import abtimg from '../assets/abtimg.jpg';
 import resume from '../assets/21BCS7439__UDAYPRATAPSINGH.pdf';
 import styled from 'styled-components';
