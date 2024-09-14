@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 20px;
+}
+
+h2 {
+  border-bottom: 2px solid #282c34;
+  padding-bottom: 5px;
+}
