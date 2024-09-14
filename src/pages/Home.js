@@ -8,30 +8,7 @@ import axios from'axios'
 const Home = () => {
   const Navigate = useNavigate()
 
-  const [ip, setip]=useState('');
-  const [location, setlocation]= useState('')
-
-  const handleclicksubmit = () => {
-    Navigate('/About')
-  }
-
-  const getlocation=async(ip)=>{
-    const response = await axios.get(`https://ipapi.co/${ip}/json/`);
-    console.log(response.data);
-    
-  }
-
-  const getip=async()=>{
-        const response = await axios.get('https://api.bigdatacloud.net/data/client-ip')
-        const data = response.data
-        console.log(data.ipString);
-        // alert(data.ipString)
-        getlocation(data.ipString);
-  }
-
-  useEffect(()=>{
-    getip();
-  })
+  
 
   return (
         <div style={styles.home}>
