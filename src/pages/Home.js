@@ -8,6 +8,10 @@ import axios from'axios'
 const Home = () => {
   const Navigate = useNavigate()
 
+  const handleclicksubmit = () => {
+    Navigate('/About')
+  }
+
   
 
   return (
